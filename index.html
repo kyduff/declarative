@@ -19,7 +19,16 @@
   <h2>
     <b>Declarative</b>
   </h2>
+
   <p>Declarative is a SAT solver that can solve large SAT problems quickly. It's compatible with most other problem formats, so switching to Declarative is easy.</p>
+  
+  <p>It differs from existing solvers because it uses statistically learned heuristics rather than manually determined ones. This means it can scale to a broader diversity of problems, and improve in an online fashion.</p>
+    
+  <p>The mechanism is similar to AlphaCode or AlphaGo, but rather than predicting tokens and scoring positions on a Go board, it predicts bitstring solution candidates and scores clauses for deletion/caching.</p>
+
+  <p>SAT solvers are at the core of many solvers, whether SMT, CP, ASP, or otherwise. Those solvers are used by large corporations for assignment-type problems. That includes scheduling, price optimization, bin packing (both physical and in data centers), and resource allocation.</p>
+
+  <p>With a strong enough solver, we can scale those workflows and make them interactive. That's what we aim to do with Declarative.</p>
   
   <a href="mailto:kylejduffy3@gmail.com">contact</a>
 </body>
